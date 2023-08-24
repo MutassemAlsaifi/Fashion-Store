@@ -1,0 +1,172 @@
+/* FOR ALL ELEMENTS */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body{
+  overflow: hidden;
+}
+/* RESAT THE ELEMENTS  */
+a {
+  display: inline-block;
+  color: inherit;
+  text-decoration: none;
+}
+button {
+  display: inline-block;
+  outline: transparent;
+  border: transparent;
+  cursor: pointer;
+}
+input{
+  outline: transparent;
+  border: transparent;
+  font-size: 1.3rem;
+    font-family: "Poppins-Regular";
+}
+img,
+button,
+a {
+  user-select: none;
+}
+i{
+  cursor: pointer;
+}
+:root {
+  font-size: 10px;
+  --text_color: #ffffff;
+  --text_color_opacity80: rgb(255, 255, 255, 80%);
+  --text_color_opacity20: rgb(255, 255, 255, 20%);
+  --main_color: black;
+  --sec_color: #fbb03b;
+  --light_sec_color: #FFF3DF;
+  --sec_color_opacity: #fff3df;
+  --text_sec_color: #a8a8a8;
+  --red_color: #ff0000;
+  --light_text: #cecece;
+  
+}
+/* THIS CLASSES FOR HTML  */
+.dark_mode{
+  --text_color: #000000;
+  --text_color_opacity80: rgb(255, 255, 255, 80%);
+  --text_color_opacity20: rgb(255, 255, 255, 20%);
+  --main_color: rgb(255, 255, 255);
+  --sec_color: #fbb03b;
+  --light_sec_color: #FFF3DF;
+  --sec_color_opacity: #fff3df;
+  --text_sec_color: #a8a8a8;
+  --red_color: #ff0000;
+  --light_text: #cecece;
+}
+.red_bg {
+  background-color: var(--red_color);
+}
+.red_text {
+  color: var(--red_color);
+}
+.light_text {
+  color: var(--light_text);
+}
+.head {
+  font-size: 2.9rem;
+  font-family: "Poppins-Light";
+  color: var(--main_color);
+}
+/* THIS CLASSES FOR JS  */
+.active_link{
+  width: fit-content;
+  margin: auto;
+border-bottom: 2px solid var(--sec_color);
+}
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+
+}
+.opacity {
+  background-color: var(--text_color_opacity20) !important;
+}
+.not_allow{
+  background-color: var(--text_color_opacity20) !important;
+  backdrop-filter: blur(5px) !important;
+  color: var(--text_color) !important;
+}
+.pagination_style{
+  font-family: "Poppins-Regular";
+  font-size: 1.5rem;
+}
+.btn{
+  padding: 1.5rem 3rem;
+  background-color: var(--sec_color);
+  color: var(--main_color);
+  border-radius: 3rem;
+  font-family: "Poppins-SemiBold";
+font-size: 1.3rem;
+border: 1px solid var(--sec_color);
+transition: 0.5s;
+}
+/* TO SHOW THE NAV BAR IN MOBILES  */
+.transform_nav {
+  display: grid !important;
+  gap: 5rem;
+  position: absolute;
+  top: 8vh;
+  width: 100%;
+  right: 0;
+  height: 50vh !important;
+  padding: 5rem 0 5rem 0;
+  background-color: var(--text_color_opacity80);
+  color: var(--main_color);
+  backdrop-filter: blur(10px);
+  opacity: 1 !important;
+ 
+}
+@keyframes MoveHight {
+  0% {
+    height: 0 !important;
+  }
+  100% {
+    height: 500px !important;
+  }
+}
+.flex_grow {
+  flex-grow: 1;
+}
+
+.animate__delay-0_5s {
+
+  animation-delay: 0.5s;
+}
+
+.animate__delay-1s {
+
+  animation-delay: 1s;
+}
+
+.animate__delay-1_5s {
+
+  animation-delay: 1.5s;
+}
+.animate__delay-2s {
+
+  animation-delay:2s;
+}
+
+/* THIS CLASSES FOR JS  */
+.transform_cart{
+  animation: transform 0.2s forwards;
+}
+
+@keyframes transform {
+  0% {
+    height: 0 ;
+  }
+  100% {
+    height: 90vh ;
+  }
+}

@@ -1,0 +1,7 @@
+/* THIS CLASSES FOR JS IN PRODUCT HTML  */
+body{
+  overflow: visible;
+}
+.btn:hover{
+  background-color: transparent;
+}

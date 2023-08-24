@@ -1,0 +1,88 @@
+header.main_header {
+  color: var(--text_color);
+  height: 10vh;
+  display: flex;
+  background-color: var(--text_color);
+  color: var(--main_color);
+  border-bottom: 1px solid #E5E5E5;
+}
+header.main_header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header.main_header .container .logo {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  font-family: "Campton-Medium";
+  font-size: 1.9rem;
+  user-select: none;
+}
+header.main_header .container .logo h2 span{
+  color: var(--sec_color);
+}
+header.main_header .container nav.links {
+  display: flex;
+  gap: 5rem;
+  text-align: center;
+  align-items: center;
+}
+.icons i.cart{
+  position: relative;
+}
+.icons i div.count_item{
+  position: absolute;
+  top: -100%;
+right: -90%;
+background-color: var(--sec_color);
+width: 3rem;
+height:  3rem;
+border-radius: 50%;
+display: grid;
+place-items: center;
+font-size: 1.5rem;
+color: rgb(255, 255, 255);
+
+}
+header.main_header .container nav.links a {
+  font-size: 1.4rem;
+  font-family: "Poppins-SemiBold";
+  padding: 0.5rem 0;
+  transition: 0.5s;
+}
+header.main_header .container nav.links a:hover {
+  opacity: 0.5;
+}
+header.main_header .container .icons {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  font-size: 2rem;
+}
+header.main_header .container .icons i.fa-bars {
+  display: none;
+}
+header.main_header .container .icons i {
+  cursor: pointer;
+}
+header.main_header nav i {
+  font-size: 2rem;
+  display: none;
+}
+/* FOR RESPONSIVE  */
+@media screen and (max-width: 992px) {
+  header.main_header .container .icons i.fa-user,
+  header.main_header .container nav.links {
+    display: none;
+  }
+  header.main_header .container .icons i.fa-bars {
+    display: block;
+  }
+  header.main_header nav i {
+    display: block;
+    margin: auto;
+
+    cursor: pointer;
+  }
+}

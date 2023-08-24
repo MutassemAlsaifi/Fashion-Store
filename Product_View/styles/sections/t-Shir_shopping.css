@@ -1,0 +1,463 @@
+section.t-Shir_shopping{
+    margin-top: 13vh;
+    padding: 5rem 0;
+position: relative;
+}
+
+a#home_page i{
+    cursor: pointer;
+}
+section.t-Shir_shopping .header h3{
+    font-size:1.2rem;
+    font-family: "Poppins-SemiBold";
+    
+}
+section.t-Shir_shopping  .header_text{
+    font-size: 1.3rem;
+    font-family: "Poppins-Regular";
+    color: #B2B2B2;
+    display: flex;
+    gap: 1rem;
+
+}
+section.t-Shir_shopping  .header_text span{
+    color: var(--main_color);
+}
+section.t-Shir_shopping .header p{
+font-size: 1.2rem;
+font-family: "Poppins-Light";
+
+
+}
+section.t-Shir_shopping .body{
+    margin-top: 5rem;
+}
+section.t-Shir_shopping .header .child{
+    display: flex;
+    gap: 3rem;
+    align-items: start;
+}
+section.t-Shir_shopping .header .child i {
+    font-size: 2rem;
+    cursor: auto;
+}
+section.t-Shir_shopping .picures_t_shirt{
+    display: flex;
+    gap: 2rem;
+    height: 500px;
+
+}
+section.t-Shir_shopping .picures_t_shirt img {
+    cursor: pointer;
+}
+section.t-Shir_shopping .samll_pic{
+    display: grid;
+    justify-items: start;
+    align-items: start;
+    align-content: space-between;
+    gap: 2rem;
+}
+section.t-Shir_shopping .samll_pic img {
+    width: 100px;
+}
+section.t-Shir_shopping .big_img{
+    width:500px;
+    height: 500px;
+    margin: auto;
+}
+section.t-Shir_shopping .big_img img{
+    width: 100%;
+    height: 100%;
+}
+section.t-Shir_shopping .right_content span.red_bg{
+    padding: 1rem 2rem ;
+    border-radius: 3rem;
+    font-family: "Poppins-SemiBold";
+    color: var(--text_color);
+
+}
+section.t-Shir_shopping .right_content .header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+section.t-Shir_shopping .right_content .header p{
+    color: var(--light_text);
+    font-family: "Poppins-Regular";
+
+}
+section.t-Shir_shopping .right_content h2{
+font-size: 3rem;
+font-family: "Poppins-Light";
+margin-top: 2rem;
+
+}
+section.t-Shir_shopping .right_content .price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+section.t-Shir_shopping .right_content .price p.red_text{
+font-size: 3rem;
+font-family: "Poppins-Regular";
+
+}
+section.t-Shir_shopping .right_content .price p.del{
+    font-size: 3rem;
+    color: var(--light_text);
+text-decoration: line-through;
+font-family: "Poppins-Regular";
+
+}
+section.t-Shir_shopping .right_content .price p{
+  font-size: 1.2rem;
+  font-family: "Poppins-Medium";
+  
+}
+
+section.t-Shir_shopping .right_content .colors_div{
+    margin-top: 5rem;
+    gap: 2rem;
+}
+section.t-Shir_shopping .right_content .colors_div p {
+    font-size: 1.3rem;
+    font-family: "Poppins-Light";
+
+}
+section.t-Shir_shopping .right_content .colors{
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+}
+section.t-Shir_shopping .right_content .colors *{
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.172);
+}
+section.t-Shir_shopping .right_content .colors .black{
+    padding: 1rem;
+    border: 1px solid #E6E6E6;
+    width: fit-content;
+}
+section.t-Shir_shopping .right_content .colors .black div{
+    width: 3rem;
+    height: 3rem;
+    background-color: black;
+    border: 1px solid #E6E6E6;
+}
+
+section.t-Shir_shopping .right_content .colors .antiquewhite{
+    padding: 1rem;
+    border: 1px solid #E6E6E6;
+    width: fit-content;
+}
+section.t-Shir_shopping .right_content .colors .antiquewhite div{
+    width: 3rem;
+    height: 3rem;
+    background-color: antiquewhite;
+    border: 1px solid #E6E6E6;
+}
+section.t-Shir_shopping .right_content .colors .blue{
+    padding: 1rem;
+    border: 1px solid #E6E6E6;
+    width: fit-content;
+}
+section.t-Shir_shopping .right_content .colors .blue div{
+    width: 3rem;
+    height: 3rem;
+    background-color: blue;
+    border: 1px solid #E6E6E6;
+}
+section.t-Shir_shopping .right_content .colors .white{
+    padding: 1rem;
+    border: 1px solid #E6E6E6;
+    width: fit-content;
+}
+section.t-Shir_shopping .right_content .colors .white div{
+    width: 3rem;
+    height: 3rem;
+    background-color: white;
+    border: 1px solid #E6E6E6;
+}
+section.t-Shir_shopping .right_content .size{
+    margin-top: 5rem;
+    position: relative;
+}
+section.t-Shir_shopping .right_content .size p{
+    font-size: 1.3rem;
+    font-family: "Poppins-Light";
+
+}
+section.t-Shir_shopping #dropdown{
+ width: 18rem;
+padding: 1.5rem 3rem ;
+ border-radius: 3rem;
+ border: 1px solid #E6E6E6;
+ font-size: 1.3rem;
+font-family: "Poppins-Regular";
+margin-top: 2rem;
+position: relative;
+user-select: none;
+gap: 1rem;
+}
+select {
+    appearance: none;
+    background-color: transparent;
+    padding: 0 1rem 0 0;
+    margin: 0;
+    width: 100%;
+    position: relative;
+    top: -50%;
+    transform: translateY(50%);
+
+  }
+  .select {
+    grid-template-areas: "select";
+  }
+  select:focus{
+    outline: transparent;
+  }
+  option{
+    background-color: #fbb13b72;
+    padding: 1rem;
+  }
+  
+  .select{
+    width: fit-content;
+    position: relative;
+    height: fit-content;
+    display: grid;
+  }
+  .select::after {
+      content: "";
+    display: inline-block;
+    width: 0.8em;
+    height: 0.5em;
+    background-color:#E6E6E6;
+    clip-path: polygon(100% 0%, 0 0%, 50% 100%);
+    position: absolute;
+    right: 2rem;
+    top: 50%;
+    transform: translateY(-50%) rotate(-90deg);
+  } 
+  section.t-Shir_shopping .right_content .quantity p{
+    font-size: 1.3rem;
+    font-family: "Poppins-Light";
+    margin-top: 3rem;
+}
+section.t-Shir_shopping .right_content .footer_cart{
+    display: flex;
+    gap: 3rem;
+    margin: 3rem;
+    flex-wrap: wrap;
+}
+
+section.t-Shir_shopping .right_content .footer_cart button:hover{
+background: transparent;
+}
+section.t-Shir_shopping .right_content .footer_cart .number{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    font-size: 1.6rem;
+border-radius: 3rem;
+border: 1px solid #E6E6E6;
+padding: 1rem 3rem;
+color: var(--main_color);
+}
+
+section.t-Shir_shopping .right_content .footer_cart .number i{
+    cursor: pointer;
+}
+section.t-Shir_shopping .right_content .footer_cart .number input{
+    font-family: "Poppins-SemiBold";
+border: transparent;
+outline: transparent;
+width: 2rem;
+}
+section.t-Shir_shopping .right_content .footer_cart .number .fa-minus{
+    color: #E6E6E6;
+}
+section.t-Shir_shopping .right_content .mnue{
+ width: 0 ;
+  display: grid;
+  background-color: rgba(0, 0, 0, 0.245);
+  color: var(--main_color);
+  font-family: "Poppins-SemiBold";
+font-size:1.5rem;
+border-radius: 5rem ;
+box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.503);
+border:2px solid black;
+position: absolute;
+top: 0;
+right: -130%;
+backdrop-filter: blur(10px);
+height: 0;
+transition: 1s;
+border: transparent;
+overflow: hidden;
+
+}
+section.t-Shir_shopping .right_content  .mnue div{
+border-bottom: 1px solid black;
+padding: 1rem 0 ;
+transition: 0.5s;
+display: grid;
+grid-template-columns: repeat(4 , 1fr);
+gap: 1rem;
+display: flex;
+justify-content: center;
+}
+section.t-Shir_shopping .right_content  .mnue div input{
+    font-family: "Poppins-SemiBold";
+    border: transparent;
+    outline: transparent;
+    width: 2rem;  
+}
+section.t-Shir_shopping .right_content  .mnue :first-child{
+    border-top: transparent;
+    position: relative;
+}
+section.t-Shir_shopping .right_content  .mnue :last-child{
+    border-top: transparent;
+
+}
+section.t-Shir_shopping .right_content  .mnue div:hover{
+    background-color:rgba(0, 0, 0, 0.573)
+}
+/* FOR RESPONSIVE  */
+@media (max-width:992px) {
+    section.t-Shir_shopping .header .child{
+margin: 3rem 0 0 0;
+    }
+}
+
+@media (max-width:1400px) {
+    section.t-Shir_shopping .right_content{
+        margin-top: 15rem;
+    }
+    section.t-Shir_shopping .picures_t_shirt{
+display: flex;
+flex-direction: column;
+text-align: center;
+    }
+    section.t-Shir_shopping .samll_pic{
+    display: flex;
+    justify-content: center;
+    order: 2;
+    flex-wrap: wrap;
+    gap: 4rem;
+    }
+   
+}
+@media (max-width:1399px) {
+    section.t-Shir_shopping .right_content{
+        margin-top: 15rem;
+    }
+    section.t-Shir_shopping .picures_t_shirt{
+display: flex;
+flex-direction: column;
+text-align: center;
+    }
+    section.t-Shir_shopping .samll_pic{
+    display: flex;
+    justify-content: space-between;
+    order: 2;
+    flex-wrap: wrap;
+    gap: 4rem;
+    }
+   
+}
+section.t-Shir_shopping .add_div{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    font-family: "Poppins-Bold";
+    font-size: 1.2rem;
+}
+
+
+@media (max-width:576px) {
+    section.t-Shir_shopping .samll_pic{
+display: none;
+    }
+    
+    section.t-Shir_shopping .right_content{
+margin: 7rem auto;
+width: 80%;
+    }
+    section.t-Shir_shopping .picures_t_shirt {
+
+padding: 0;
+    }
+    section.t-Shir_shopping .header{
+        display: none;
+    }
+    section.t-Shir_shopping{
+        padding: 0 0 5rem 0;
+        margin: 0;
+    }
+    section.t-Shir_shopping .big_img {
+margin-bottom: 1.5rem;
+width: 100%;
+height: 100%;
+
+    }
+    section.t-Shir_shopping .big_img img {
+margin-bottom: 1.5rem;
+
+object-fit: cover;
+
+    }
+    section.t-Shir_shopping .container{
+        margin: 0;
+        padding: 0;
+        max-width: 100%;
+    }
+}
+/* THIS TO SHOW THE MENU IN JS  */
+.show_mnue{
+    animation: d_block 1s forwards;
+
+}
+.remove_nav{
+    animation: d_block 1s reverse forwards;
+
+}
+.alert_text_denger{
+    color: red;
+    animation:opacity 1s forwards
+}
+.alert_text_success{
+    color: var(--sec_color);
+    animation:opacity 1s forwards
+}
+@keyframes opacity {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes d_block {
+    0%{
+        height: 0;
+        border: transparent;
+
+    }
+    100%{
+        width: 200px;
+        height: 300px;
+        border: 2px solid black;
+
+    }
+}
+.active_img{
+    box-shadow: 0 0 5px 5px rgba(251, 177, 59, 0.5) !important;
+}

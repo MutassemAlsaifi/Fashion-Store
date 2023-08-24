@@ -1,0 +1,61 @@
+section.About_us{
+    padding: 5rem 0 ;
+}
+section.About_us .container{
+    overflow: hidden;
+  }
+section.About_us h2{
+    text-align: center;
+}
+section.About_us .row{
+    margin-top: 5rem;
+}
+section.About_us .box{
+    display: grid;
+    gap: 2rem;
+    margin: 5rem 0;
+}
+section.About_us .box .icon i{
+    font-size: 4rem;
+    color: var(--main_color);
+    background-color: #F6F6F6;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    transition: 1s ;
+}
+section.About_us .box .icon i.active{
+    color: var(--sec_color);
+    background-color: var(--light_sec_color);
+}
+section.About_us .box .icon i:hover{
+    color: var(--sec_color);
+    background-color: var(--light_sec_color);
+    transform: scale(1.2) translateY(-2rem) ;
+}
+section.About_us .box h3{
+    font-size: 1.6rem;
+    font-family: "Poppins-SemiBold";
+}
+section.About_us .box .text_content{
+    display: grid;
+    gap: 2rem;
+}section.About_us .box .text_content p{
+    font-size: 1.3rem;
+    font-family: "Poppins-Regular";
+    color: #808080;
+
+}
+@media screen  and (max-width:992px){
+section.About_us .box h3{
+text-align: center;
+}
+
+section.About_us .box .icon i{
+    display: block;
+    width: fit-content;
+margin: 0 auto;
+}
+section.About_us .box p{
+    text-align: justify;
+}
+}

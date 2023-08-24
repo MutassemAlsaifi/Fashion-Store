@@ -1,0 +1,114 @@
+footer.footer{
+    padding: 5rem 0 0 0 ;
+    font-family: "Poppins-Regular";
+font-size: 1.3rem;
+    
+}
+footer.footer img{
+    width: 50px;
+}
+footer.footer .row .child:nth-child(1) h2{
+font-size: 1.9rem;
+font-family: "Campton-Medium";
+padding-left: 2rem;
+
+}
+footer.footer .row :nth-child(1) >p{
+color: #808080;
+margin-top: 2rem;
+}
+footer.footer .row .child h2 span{
+    color: var(--sec_color);
+}
+footer.footer .row .child:nth-child(1) .social_media{
+    display: flex;
+    gap: 3rem;
+    font-size: 2rem;
+    color: #808080;
+margin-top: 4rem;
+}
+footer.footer .row .child h3{
+    font-size: 1.4rem;
+    font-family: "Poppins-SemiBold";
+
+}footer.footer .row .child .links{
+display: grid;
+gap: 1rem;
+margin-top: 2rem;
+}
+footer.footer .row .child.special{
+    width: fit-content;
+    margin-left: auto;
+    color: var(--main_color);
+}
+footer.footer .row .child.special p{
+    margin-top: 2rem;
+}
+
+footer.footer > p{
+    margin-top: 3rem;
+text-align: center;
+padding: 3rem 0;
+border-top: 2px solid #EBEBEB;
+color: #AEAEAE;
+font-size: 1.2rem;
+}
+footer.footer .social_media i{
+    transition: 1s;
+    padding: 0.5rem;
+    width: 4rem ;
+    height:  4rem ;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+   
+    border: 1px solid transparent;
+}
+footer.footer .social_media i:hover {
+    transform: scale(1.2) translateY(-1rem);
+    border: 1px solid var(--sec_color);
+}
+footer.footer .social_media a:nth-child(1) i:hover{
+    color: #1877F2;
+}
+footer.footer .social_media a:nth-child(2) i:hover{
+    color: #1DA1F2;
+}
+footer.footer .social_media a:nth-child(3) i:hover{
+    color:  #0A66C2;
+}
+footer.footer .social_media a:nth-child(4) i:hover{
+    color: #833AB4;
+    background: -webkit-linear-gradient(#833AB4 , #C13584 );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+footer.footer .social_media a:nth-child(5) i:hover{
+    color: #FF0000;
+}
+@media (min-width:768px) and (max-width:992px) {
+    footer.footer .row .child.special{
+        width: 100%;
+        margin-left:0;
+        margin-top: 5rem;
+    
+    }
+    footer.footer .row >:nth-child(2),footer.footer .row >:nth-child(4){
+       width: fit-content;
+       margin-left: auto;
+    }
+    }
+
+    @media (max-width:768px)  {
+        footer.footer .row .child.special{
+            width: 100%;
+            margin-left:0;
+            margin-top: 5rem;
+        
+        }
+        footer.footer .row .child:nth-child(1) .social_media{
+flex-wrap: wrap;
+        }
+        }
+
+    

@@ -1,0 +1,76 @@
+section.subscribe{
+    padding: 10rem 0;
+    background-image: linear-gradient(rgb(0, 0, 0,0.5),rgb(0, 0, 0,0.5)),url(../../imgs/subscribe/Subscribe.webp) ;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+    color: var(--text_color);
+}
+
+section.subscribe .row .child h2{
+    font-size: 2.9rem;
+    font-family: "Poppins-Regular";
+
+}
+section.subscribe .row .child form{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+section.subscribe .row .child form .email_div{
+    width: 100%;
+    position: relative;
+}
+section.subscribe .row .child form .email_div span{
+    position: absolute;
+    left: 2rem;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 5;
+    color: #ABABAB;
+    font-family: "Poppins-Regular";
+font-size: 1.3rem;
+pointer-events: none;
+transition: 0.5s;
+
+}
+section.subscribe .row .child form .email_div input
+{
+    width: 100%;
+    padding: 2rem 3rem;
+    border-radius: 3rem;
+    transition: 0.5s;
+}
+section.subscribe .row .child form .email_div input:focus ~ span{
+top: 0;
+font-size: 0.9rem;
+background-color: var(--main_color);
+padding: 0.5rem 1rem ;
+border-radius: 2rem;
+}
+section.subscribe .row .child form button{
+    width: 20%;
+    padding: 2rem 1rem;
+    border-radius: 3rem;
+    background-color: var(--sec_color);
+    color: var(--text_color);
+    font-size: 1.3rem;
+    font-family: "Poppins-SemiBold";
+    transition: 0.5s;
+border: 2px solid var(--sec_color);
+}
+
+section.subscribe .row .child form button:hover{
+   background-color: transparent;
+
+}
+@media screen and (max-width:786px) {
+    section.subscribe .row .child form{
+
+flex-wrap: wrap;
+    }
+    section.subscribe .row .child form button{
+width: 40%;
+    }
+}

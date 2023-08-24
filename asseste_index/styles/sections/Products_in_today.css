@@ -1,0 +1,91 @@
+section.Products_in_today {
+    padding: 5rem 0;
+  }
+  section.Products_in_today .container{
+    overflow: hidden;
+  }
+  section.Products_in_today h2{
+    text-align: center;
+    padding: 5rem 0; 
+  }
+  section.Products_in_today .child{
+    position: relative;
+    margin: auto;
+    margin: 5rem 0;
+    transition: 0.5s;
+    transform-style: preserve-3d;
+    perspective: 700px;
+    overflow: hidden;
+  }
+  section.Products_in_today .child:hover img{
+    border-radius: 50%;
+    transform:translateZ(-300px) rotateX(-15deg) ;
+    
+  }
+  section.Products_in_today .child:hover::after{
+    display: block;
+  }
+  section.Products_in_today  .child p {
+    font-size: 1.6rem;
+    font-family: "Poppins-Light";
+  }
+  section.Products_in_today .child img {
+    position: relative;
+    width: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+  }
+  section.Products_in_today .child::after {
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 1px;
+    background-color: #fbb03b;;
+    transform: rotateX(70deg) ;
+    position: absolute;
+    bottom: 35%;
+    right: 50%;
+    filter: blur(10px);
+    box-shadow: 0 0 120px 120px  #fbb03b;
+    z-index: -1;
+    /* display: none; */
+
+  }
+  section.Products_in_today .child .text_content {
+    width: 70%;
+    font-family: "Poppins-Regular";
+  font-size: 2rem;
+  user-select: none;
+  }
+  section.Products_in_today .child .text_content .abs {
+    position: absolute;
+     top: 2rem;
+    left: 2rem;
+    border-radius: 3rem;
+    padding: 1rem 1.5rem;
+    color: var(--text_color);
+    font-size: 1.2rem;
+    font-family: "Poppins-SemiBold";
+    z-index: 5;  
+  }
+
+  @media screen and (max-width:768px) {
+    section.Products_in_today .child .text_content .abs {
+        padding: 0.8rem 1.2rem;
+        font-size: 0.8rem;
+
+    }
+    
+    
+  }
+  @media screen and (max-width:576px) {
+    section.Products_in_today .child .text_content .abs {
+        padding: 0.8rem 1.2rem;
+        font-size: 0.8rem;
+
+    }
+    section.Products_in_today .child{      
+      margin:3rem  5rem;
+    }    
+    
+  }

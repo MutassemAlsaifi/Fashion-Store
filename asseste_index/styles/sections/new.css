@@ -1,0 +1,89 @@
+section.new {
+  position: relative;
+  padding: 10rem 0;
+  overflow: hidden;
+}
+section.new .container {
+  display: flex;
+  gap: 3rem;
+  overflow: hidden;
+
+}
+section.new .container .box {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  overflow: hidden;
+  transition: 0.5s;
+}
+section.new .container .box:nth-child(1) {
+  background-image: linear-gradient(rgb(0, 0, 0, 0.2), rgb(0, 0, 0, 0.2)),
+    url(../../imgs/new/pic1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+}
+section.new .container .box:nth-child(2) {
+  background-image: linear-gradient(rgb(0, 0, 0, 0.2), rgb(0, 0, 0, 0.2)),
+    url(../../imgs/new/pic2.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+section.new .container .box:nth-child(3) {
+  background-image: linear-gradient(rgb(0, 0, 0, 0.2), rgb(0, 0, 0, 0.2)),
+    url(../../imgs/new/pic3.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+}
+
+section.new .container .box .text_content {
+  position: absolute;
+  color: var(--text_color);
+  width: 70%;
+  left: 3rem;
+  bottom: 3rem;
+}
+section.new .container .box .text_content {
+  font-size: 2.5rem;
+  font-family: "Poppins-Regular";
+}
+section.new .container .box .text_content button {
+  color: var(--main_color);
+  padding: 1.5rem 2.5rem;
+  border-radius: 4rem;
+  background-color: var(--text_color);
+  font-size: 1.3rem;
+  font-family: "Poppins-SemiBold";
+  transition: 0.5s;
+}
+section.new .container .box .text_content button:hover {
+  background-color: var(--main_color);
+  color: var(--text_color);
+}
+section.new .container .box .text_content span {
+  border-radius: 4rem;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  font-family: "Poppins-SemiBold";
+}
+@media screen and (max-width: 992px) {
+  section.new .container {
+    flex-wrap: wrap;
+    align-items: center;
+    
+  }
+  section.new .container .box {
+    margin: auto;
+  }
+}
+@media screen and (max-width: 576px) {
+  section.new .container {
+    flex-wrap: wrap;
+    align-items: center;
+
+  }
+  section.new .container .box {
+    margin: 0 2rem;
+  }
+}

@@ -1,0 +1,47 @@
+/* IMPORT THE SECTIONS  */
+@import url(sections/general.css);
+@import url(sections/header.css);
+@import url(sections/main.css);
+@import url(sections/new.css);
+@import url(sections/product.css);
+@import url(sections/About_us.css);
+@import url(sections/Products_in_today.css);
+@import url(sections/subscribe.css);
+@import url(sections/footer.css);
+@import url(sections/loading.css);
+@import url(sections/login.css);
+@import url(sections/create_account.css);
+@import url(sections/Forgot_your_password.css);
+@import url(../../together_css/achievement.css);
+@import url(../../together_css/cart.css);
+
+/* IMPORT THE FONTS  */
+
+/* Poppins FONTS  */
+@font-face {
+  font-family: "Poppins-Bold";
+  src: url(../../fonts/Poppins/Poppins-Bold.ttf);
+}
+@font-face {
+  font-family: "Poppins-Light";
+  src: url(../../fonts/Poppins/Poppins-Light.ttf);
+}
+@font-face {
+  font-family: "Poppins-SemiBold";
+  src: url(../../fonts/Poppins/Poppins-SemiBold.ttf);
+}
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url(../../fonts/Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: "Poppins-Medium";
+  src: url(../../fonts/Poppins/Poppins-Medium.ttf);
+}
+/* Campton FONTS  */
+
+@font-face {
+  font-family: "Campton-Medium";
+  src: url(../../fonts/Campton/Campton-Medium.ttf);
+}
+ 

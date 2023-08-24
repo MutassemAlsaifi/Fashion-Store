@@ -1,0 +1,254 @@
+main {
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+main .linier_gra{
+  background-image: linear-gradient(rgb(0, 0, 0,0.2), rgb(0, 0, 0,0.2));
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  z-index: 0;
+  top: 0;
+}
+main .wrapper{
+width: 100%;
+height: 100vh;
+
+}
+main .slide{
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+}
+main .wrapper .slide img {
+object-fit: cover;
+width: 100%;
+height: 100vh;
+background-color: rgb(42, 33, 21);
+}
+
+main .wrapper .slide:nth-child(2) img {
+  filter: invert(550%);
+}
+
+main .wrapper .slide:nth-child(3) img {
+  filter: sepia(200%);
+}
+
+
+main .container {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+  
+}
+main .pagination{
+  display: grid;
+
+  align-items: center;
+  justify-content: center;
+  color: var(--text_color);
+  font-size: 1.5rem;
+}
+main .container .mainText {
+  display: flex;
+  align-items: start;
+  height: 300px;
+  gap: 3rem;
+}
+main .container .mainText .header_text {
+  display: grid;
+  color: var(--text_color);
+  gap: 5rem;
+  width: 50%;
+}
+
+main .container .mainText h1 {
+  font-size: 6.6rem;
+  user-select: none;
+}
+main .container .mainText .shop_footer {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+main .container .mainText .shop_footer button {
+  border-radius: 50%;
+  background-color: var(--sec_color);
+}
+main .container .mainText .shop_footer p {
+  font-size: 1.6rem;
+  font-family: "Poppins-SemiBold";
+  user-select: none;
+  cursor: pointer;
+}
+main .container .mainText .shop_footer i {
+  font-size: 2rem;
+  padding: 1rem;
+  display: grid;
+  place-items: center;
+  color: var(--text_color);
+}
+main .footer_main {
+  position: absolute;
+
+  bottom: 0;
+  z-index: 100;
+  width: 80%;
+}
+main .footer_main .boxes {
+  background-color: var(--text_color);
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  border-top-right-radius: 7rem;
+
+}
+main .footer_main .boxes .box {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 3rem;
+  width: 30%;
+}
+main .footer_main .boxes .box i {
+  font-size: 5rem;
+  color: var(--sec_color);
+  background-color: var(--sec_color_opacity);
+  padding: 1rem;
+  display: grid;
+  place-items: center;
+  border-radius: 1rem;
+}
+main .footer_main .boxes .box h3 {
+  font-size: 1.4rem;
+  font-family: "Poppins-SemiBold";
+  padding-bottom: 1rem;
+}
+main .footer_main .boxes .box p {
+  font-size: 1.2rem;
+  font-family: "Poppins-Regular";
+  color: var(--text_sec_color);
+}
+.control {
+  width: 12%;
+  position: absolute;
+  z-index: 200;
+  right: 5%;
+  bottom: 5%;
+  display: flex;
+  justify-content: center;
+  padding-left: 1rem;
+  gap: 3rem;
+}
+
+main .control > *{
+
+  cursor: pointer;
+  padding: 2rem;
+  background-color: var(--text_color);
+  font-size: 2rem;
+
+}
+/* FOR RESPONSIVE  */
+
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .control {
+    width: 15%;
+  }
+  main .container {
+    top: 20%;
+  }
+  main .footer_main .boxes .box {
+    flex-grow: 1;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 1100px) {
+  main .footer_main {
+    display: none;
+  }
+  .control {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+  main .container .mainText .header_text {
+    width: 100%;
+    text-align: center;
+  }
+  main .container .mainText .shop_footer {
+    margin: auto;
+  }
+  main .pagination {
+    display: none;
+  }
+  .control{
+    display: none;
+}
+}
+@media (max-width: 576px) {
+  main .footer_main {
+    display: none;
+  }
+  
+  main .container {
+    padding-left: 3rem;
+  }
+  main img {
+    object-position: top top;
+  }
+  main .container {
+    width: 100%;
+  }
+  main .container .mainText .header_text {
+    width: 100%;
+  }
+  main .container .mainText .header_text {
+    font-size: 4rem;
+  }
+  main .pagination {
+    display: none;
+  }
+  .control{
+    display: none;
+  }
+  
+}
+@media screen and (max-width: 500px) {
+  main .container .mainText h1 {
+font-size: 5rem;
+  }
+
+  main .footer_main {
+    display: none;
+  }
+  
+  main .container {
+    padding-left: 3rem;
+  }
+  main img {
+    object-position: top top;
+  }
+  main .container {
+    width: 100%;
+  }
+  main .container .mainText .header_text {
+    width: 100%;
+  }
+  main .container .mainText .header_text {
+    font-size: 4rem;
+  }
+  main .pagination {
+    display: none;
+  }
+  .control{
+    display: none;
+  }
+}

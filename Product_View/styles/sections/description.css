@@ -1,0 +1,171 @@
+section.description{
+    padding: 5rem 0 0 0;
+}
+section.description .container{
+    overflow: hidden;
+    position: relative;
+}
+section.description .container .buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+section.description .container .buttons button:hover{
+background-color: var(--sec_color);
+}
+section.description .container .main_content_description{
+    margin-top: 20rem 0 0 0;
+    position: absolute;
+}
+section.description .container .main_content_description  .right_child > *{
+    margin: auto;
+}
+section.description .container .main_content_description .child.left_child i:first-of-type ,
+section.description .container .main_content_description  .right_child >i{
+    display: block;
+    font-size: 5rem;
+color:  #E6E6E6;
+margin: auto;
+margin-top: 10rem;
+}
+section.description .container .main_content_description  .child{
+    text-align: center;
+
+}
+section.description .container .main_content_description  .child h2{
+font-size: 1.6rem;
+font-family: "Poppins-SemiBold";
+margin-top: 3rem;
+}
+section.description .container .main_content_description  .child p{
+    font-size: 1.4rem;
+    font-family: "Poppins-Regular";
+    margin-top: 2rem;
+
+}
+section.description .container .main_content_description  .child .icons i {
+    
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+section.description .main_content_reviews{
+    padding-top: 5rem;
+
+}
+
+section.description .main_content_reviews .left_child button{
+    display: block;
+margin: 3rem 5rem 0;
+padding: 1rem 4rem;
+}
+section.description .main_content_reviews .left_child .opinions{
+display: flex;
+align-items: center;
+gap: 5rem;
+
+}
+section.description .main_content_reviews .left_child .opinions .left{
+    display: grid;
+}
+section.description .main_content_reviews .left_child .opinions .left h2{
+    font-size: 5.9rem;
+    font-family: "Poppins-SemiBold";
+
+}
+
+section.description .main_content_reviews  .stars i{
+    color: var(--sec_color);
+}
+section.description .main_content_reviews  .stars{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.footer_opinions{
+    margin-top: 2rem;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+font-size: 1.2rem;
+font-family: "Poppins-Regular";
+}
+section.description .main_content_reviews .left_child .ranks .rank{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+section.description .main_content_reviews .left_child .ranks .rank .opinion{
+width: 200px;
+height: 0.3rem;
+background-color: #DBDBDB;
+border-radius: 0.5rem;
+}
+section.description .main_content_reviews .left_child .ranks .rank p {
+    font-size: 1.2rem;
+    font-family: "Poppins-Regular";
+
+}
+section.description .main_content_reviews .left_child .ranks .rank i{
+    color: var(--sec_color);
+}
+section.description .main_content_reviews .left_child .ranks > .rank:nth-of-type(3)  > div.opinion >div{
+    height: 100%;
+    background-color: var(--sec_color);
+}
+section.description .main_content_reviews .left_child .ranks :nth-child(4) div{    
+    height: 100%;
+    background-color: var(--sec_color);
+}
+section.description .main_content_reviews .left_child .ranks :nth-child(5) div{    
+    height: 100%;
+    background-color: var(--sec_color);
+}
+section.description .main_content_reviews .card{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    font-size: 1.2rem;
+}
+section.description .main_content_reviews .card h3{
+    font-family: "Poppins-SemiBold";
+
+}
+section.description .main_content_reviews .card p{
+    font-family: "Poppins-Regular";
+
+}
+section.description .main_content_reviews .text .header{
+    display: grid;
+    gap: 0.5rem;
+    padding-bottom: 2rem;
+}
+section.description .main_content_reviews img {
+    width: 100px;
+}
+@media screen and (max-width:992px) {
+    section.description .container .main_content_description  .child{
+margin-top: 5rem;
+    }
+}
+
+/* THIS CLASS FOR JS */
+.inactive{
+    border: transparent;
+    color: #D4D4D4;
+    font-family: "Poppins-Regular";
+    padding: 1rem 3rem;
+    border-radius: 3rem;
+    background: transparent;
+    transition: 0.5s;
+}
+.btn_active{
+    background-color: transparent;
+    border: 2px solid var(--sec_color);
+    padding: 1rem 3rem;
+    border-radius: 3rem;
+    font-family: "Poppins-SemiBold";
+font-size: 1.3rem;
+transition: 0.5s;
+}

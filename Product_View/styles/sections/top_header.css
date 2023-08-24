@@ -1,0 +1,36 @@
+header.top_header{
+    padding: 1rem;
+    background-color: #EEEEEE;
+    height: 5vh;
+    transform: translateY(0vh);
+}
+
+header.top_header .container{
+    font-family: "Poppins-Medium";
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.transform_top_header{
+    animation: transform_top_header 1s both;
+}
+.transform_top_header_reverse{
+    animation: transform_top_header_reverse 1s both;
+}
+@keyframes transform_top_header {
+    0%{
+transform: translateY(0vh);
+    }100%{
+        transform: translateY(-5vh);
+
+    }
+}
+@keyframes transform_top_header_reverse {
+    0%{
+transform: translateY(-5vh);
+    }100%{
+        transform: translateY(0vh);
+
+    }
+}

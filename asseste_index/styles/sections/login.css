@@ -1,0 +1,196 @@
+.interface_login{
+    width: 100%;
+    height: 85vh;
+    position: absolute;
+    top: 15vh;
+    left: 0;
+    transform: translateY(-200vh);
+    z-index: 9999999999;
+}
+.interface_login img {
+    width: 20px;
+}
+.logIN{
+    background-color:rgba(255, 255, 255);
+    
+    padding: 3rem;
+    backdrop-filter: blur(5px);
+    transform: translateX(-50%) !important;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.371);
+    position: relative;
+    left: 50%;
+    top: 0;
+    display: grid;
+    gap: 2rem;
+    width: fit-content;
+    max-width: 100%;
+}
+
+.logIN .close{
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translateY(-50%);
+    z-index: 99999999;
+    color: var(--main_color);
+    padding: 1rem;
+    font-size: 2rem;
+}
+.logIN h2{
+    font-size: 2.2rem;
+    font-family: "Poppins-SemiBold";
+    width: 100%;
+    text-align: center;
+    position: relative;
+   padding-bottom: 1rem;
+
+}
+.logIN p{
+font-size: 1.3rem;
+font-family: "Poppins-Regular";
+color: #808080;
+}
+.logIN form {
+    width: 100%;
+}
+.logIN form input[type="email"],.logIN form input[type="password"] , #password_login{
+    outline: transparent;
+    border: 1px solid #808080 ;
+width: 100%;
+padding: 1rem 5rem;
+height:  5rem;
+border-radius: 3rem;
+margin-top: 2rem;
+
+}
+.logIN form input::placeholder{
+    font-size: 1.3rem;
+    font-family: "Poppins-Regular";
+}
+.logIN form input[type="checkbox"]{
+    border: transparent;
+    outline: transparent;
+    border-radius: 0;
+    accent-color: var(--sec_color);
+}
+.logIN .checkbox_div{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+
+}
+#password_login{
+    margin-top: 0;
+}
+.logIN  .pass{
+    position: relative;
+    width: 100%;
+    margin-top: 2rem;
+
+}
+.logIN .eye ,.logIN .open_eye{
+    position: absolute;
+    right:1rem;
+    top:30%;
+    font-size: 1.8rem;
+}
+.logIN .Keep_forget{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    font-family: "Poppins-Regular";
+}
+.logIN .Keep_forget a{
+    color: #808080;
+}
+.logIN .social_login{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.logIN .social_login button{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    width: 50%;
+    padding: 1.5rem 3rem;
+    border-radius: 3rem;
+    margin-top: 1rem;
+}
+.logIN .social_login >:first-child p {
+    color:var(--text_color);
+}
+.logIN .social_login >:last-child p {
+    color:var(--main_color);
+}
+.social_login >:first-child{
+    background-color: #3B5998;
+    transition: 0.5s;
+}
+.social_login >:first-child:hover{
+    background-color: #3b5898ca;
+}
+.logIN .social_login >:last-child{
+    background-color: transparent;
+    border: 1px solid #F1584D;
+    transition: 0.5s;
+
+}
+.logIN .social_login >:last-child:hover{
+    background-color: #F1584D;
+}
+.logIN .social_login :first-child i{
+    color: var(--text_color);
+}
+#Sign_in{
+    margin-top: 2rem;
+    width: 100%;
+    transition: 0.5s;
+}
+#Sign_in:hover{
+    background-color: transparent;
+}
+.logIN .footer_login{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 1rem;
+    
+}
+  
+
+  .logIN .footer_login p {
+    color: var(--main_color);
+    font-family: "Poppins-SemiBold";
+font-size: 1.3rem;
+cursor: pointer;
+}
+.transform_login{
+animation: transform_login 1s both;
+}
+.transform_login_reverse{
+    animation: transform_login_reverse 1s both;
+
+}
+@keyframes transform_login {
+0%{
+    transform: translateY(-200vh);
+}    
+100%{
+    transform: translateY(0);
+}    
+}
+@keyframes transform_login_reverse {
+0%{
+    transform: translateY(0);
+}    
+100%{
+    transform: translateY(-200vh);
+}    
+}

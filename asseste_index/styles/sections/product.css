@@ -1,0 +1,103 @@
+section.product {
+  padding: 5rem 0;
+}
+
+section.product  .header_content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5rem 0;
+}
+section.product  .header_content button {
+  background-color: transparent;
+  border: solid 1px rgba(0, 0, 0, 0.377);
+  border-radius: 3rem;
+  padding: 1rem 2rem;
+  font-size: 1.3rem;
+  font-family: "Poppins-SemiBold";
+  transition: 0.5s;
+}
+section.product  .header_content button:hover {
+  background-color: var(--main_color);
+  color: var(--text_color);
+}
+
+section.product   .child{
+  width: 100%;
+}
+section.product    a {
+  width: 100%;
+  height: 100%;
+}
+section.product   .child p {
+  font-size: 1.6rem;
+  font-family: "Poppins-Light";
+}
+section.product  img {
+  object-fit: cover;
+  width: 100%;
+  height: 400px;
+  object-position: top;
+
+}
+section.product   .child .text_content {
+  width: 70%;
+  font-family: "Poppins-Regular";
+font-size: 2rem;
+user-select: none;
+}
+section.product   .child .text_content .abs {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+  border-radius: 3rem;
+  padding: 1rem 1.5rem;
+  color: var(--text_color);
+  font-size: 1.2rem;
+  font-family: "Poppins-SemiBold";
+}
+
+.swiper-button-next  {
+  color: var(--main_color);
+}
+  .swiper-button-prev{
+    color: var(--main_color);
+  }
+.swiper-button-next:after, .swiper-button-prev:after{
+  font-size: 0;
+}.swiper-button-next i, .swiper-button-prev i{
+font-size: 3rem;
+
+}
+.swiper-button-disabled.swiper-button-prev  {
+  cursor: not-allowed !important;
+}
+.swiper-button-disabled.swiper-button-next  {
+  cursor: not-allowed !important;
+}
+
+
+.swiper-button-prev.swiper-button-disabled {
+  pointer-events: visible;
+}
+
+.swiper-backface-hidden .swiper-slide {
+display: flex;
+justify-content: center;
+}
+@media screen and (max-width:576px) {
+  section.Product .child .text_content .abs {
+      padding: 0.8rem 1.2rem;
+      font-size: 0.8rem;
+
+  }
+}
+@media screen and (max-width:768px) {
+     
+    section.product  img {
+height: 600px;
+    }
+  
+
+
+}
