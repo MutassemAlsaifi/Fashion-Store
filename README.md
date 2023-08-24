@@ -5,7 +5,6 @@ Online Clothing Store
 <h2>Table of Contents</h2>
 Features
 Demo
-Installation
 Usage
 Technologies Used
 Contributing
@@ -17,10 +16,6 @@ Checkout: Users can proceed to checkout, providing their shipping information an
 Responsive Design: The application is responsive, ensuring a seamless experience across various devices.
 <h2>Demo</h2>
 Check out the live demo of the Online Clothing Store here.
-<h2>Installation</h2>
-Clone the repository: git clone https://mutassemalsaifi.github.io/Fashion-Store/
-Navigate to the project directory: cd online-clothing-store
-Open the index.html file in your preferred web browser.
 <h2>Usage</h2>
 Browse through the collection of clothing items on the homepage.
 Click on an item to view its details.
