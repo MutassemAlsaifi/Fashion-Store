@@ -18,7 +18,7 @@ Responsive Design: The application is responsive, ensuring a seamless experience
 <h2>Demo</h2>
 Check out the live demo of the Online Clothing Store here.
 <h2>Installation</h2>
-Clone the repository: git clone https://github.com/your-username/online-clothing-store.git
+Clone the repository: git clone https://mutassemalsaifi.github.io/Fashion-Store/
 Navigate to the project directory: cd online-clothing-store
 Open the index.html file in your preferred web browser.
 <h2>Usage</h2>
